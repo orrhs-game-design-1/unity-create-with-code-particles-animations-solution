@@ -17,7 +17,7 @@ public class PlayerController : MonoBehaviour
     private static readonly int DeathB = Animator.StringToHash("Death_b");
     private static readonly int DeathTypeINT = Animator.StringToHash("DeathType_int");
     private bool hasExploded;
-    
+
     // Start is called before the first frame update
     private void Start()
     {
@@ -60,7 +60,6 @@ public class PlayerController : MonoBehaviour
                 explosionParticle.Play();
                 hasExploded = true;
             }
-            
         }
     }
 }
